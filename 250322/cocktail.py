@@ -31,7 +31,7 @@ def CocktailSort(lista):
                 )
                 change = True
 
-        if not change:
+        if not change: #if there are no changes we are done!
             break
 
         # Backward pass, lowest number at the begining
